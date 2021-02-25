@@ -21,14 +21,19 @@ public class NumParesImpares66228 {
         while (i < 101) {
             if (i%2==0){
                  par = par + i;
-            System.out.println("La suma de los pares es = "+ par);
+                 //Si quita el comentario de abajo, le sumará le mostrara el progreso de la suma de pares
+          //  System.out.println("La suma de los pares es = "+ par);
                   
         } else{
                impar = impar + i; 
-            System.out.println("La suma de los impares es = " + impar);
+               //Si quita el comentario de abajo, le sumará le mostrara el progreso de la suma de impares
+           //  System.out.println("La suma de los impares es = "+ impar);
             }
             i++;
+           
     }
+          System.out.println("La suma de los pares es = "+ par);
+              System.out.println("La suma de los impares es = "+ impar);
     }
     
 }
